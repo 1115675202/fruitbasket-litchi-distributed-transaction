@@ -5,12 +5,8 @@
 ├── fruitbasket-litchi-code-generator           mybatis-plus 自动生成代码
 ├── fruitbasket-litchi-eureka                   注册中心
 ├── txlcn
-├&nbsp;&nbsp;&nbsp;├──fruitbasket-litchi-txlcn-a               参与服务a
-├&nbsp;&nbsp;&nbsp;├─—fruitbasket-litchi-txlcn-b               参与服务b
-├&nbsp;&nbsp;&nbsp;├─—fruitbasket-litchi-txlcn-c               参与服务c
-├&nbsp;&nbsp;&nbsp;├─—fruitbasket-litchi-txlcn-manager         事务协调服务
-├
-├── seata
+├   ├──fruitbasket-litchi-txlcn-a               参与服务a
+
 
 ## txlcn 测试
 
