@@ -6,9 +6,9 @@
 ├── fruitbasket-litchi-eureka                   注册中心
 ├── txlcn
 ├&ensp;&ensp;&ensp;├── fruitbasket-litchi-txlcn-a               参与服务a(TC)
-├&ensp;&ensp;&ensp;├─— fruitbasket-litchi-txlcn-b               参与服务b(TC)
-├&ensp;&ensp;&ensp;├─— fruitbasket-litchi-txlcn-c               参与服务c(TC)
-├&ensp;&ensp;&ensp;├─— fruitbasket-litchi-txlcn-manager         事务协调服务(TM)
+├&ensp;&ensp;&ensp;├── fruitbasket-litchi-txlcn-b               参与服务b(TC)
+├&ensp;&ensp;&ensp;├── fruitbasket-litchi-txlcn-c               参与服务c(TC)
+├&ensp;&ensp;&ensp;├── fruitbasket-litchi-txlcn-manager         事务协调服务(TM)
 ├
 ├── seata
 
