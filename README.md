@@ -1,7 +1,7 @@
 # 分布式事务实现例子
 
 ## 模块结构
-
+``` lua
 ├── fruitbasket-litchi-code-generator           mybatis-plus 自动生成代码
 ├── fruitbasket-litchi-eureka                   注册中心
 ├── /txlcn
@@ -9,7 +9,8 @@
 ├── fruitbasket-litchi-txlcn-b               参与服务b(TC)
 ├── fruitbasket-litchi-txlcn-c               参与服务c(TC)
 ├── fruitbasket-litchi-txlcn-manager         事务协调服务(TM)
-├── seata
+└── seata
+```
 
 ## txlcn 测试
 
