@@ -16,15 +16,15 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
  */
 public class MyBatisPlusCodeGenerator {
 
-    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/txlcn-a?useUnicode=true&useSSL=false&characterEncoding=utf8";
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/seata_sample?useUnicode=true&useSSL=false&characterEncoding=utf8";
     private static final String DATABASE_USERNAME = "root";
     private static final String DATABASE_PASSWORD = "pwd888888";
-    private static final String PARENT_PACKAGE = "cn.fruitbasket.litchi.txlcn.a";
+    private static final String PARENT_PACKAGE = "cn.fruitbasket.litchi.seata.account";
     private static final String AUTHOR = "LiuBing";
 
-    private static final String OUTPUT_DIR = System.getProperty("user.dir") + "/lcn/src/main/java";
+    private static final String OUTPUT_DIR = System.getProperty("user.dir") + "/seata/fruitbasket-litchi-seata-order/src/main/java";
     private static final String MODULE_NAME = "";
-    private static final String TABEL_NAMES = "tcc_business";
+    private static final String TABEL_NAMES = "order_tbl";
 
     public static void main(String[] args) {
         PackageConfig packageConfig = packageConfig();
