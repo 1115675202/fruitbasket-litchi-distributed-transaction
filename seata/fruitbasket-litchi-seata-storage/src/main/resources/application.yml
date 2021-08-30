@@ -1,18 +1,24 @@
 server:
-  port: 9091
+  port: 9094
 
 spring:
   application:
-    name: seata-storage
-
+    name: storage-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+  main:
+    allow-bean-definition-overriding: true
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/seata_sample?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
     password: pwd888888
-mybatis:
-  mapper-locations:
-  - classpath:mapper/*.xml
+
+feign:
+  hystrix:
+    enabled: true
 
 eureka:
   client:
@@ -22,3 +28,5 @@ eureka:
 logging:
   level:
     root: info
+    io:
+      seata: info
