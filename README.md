@@ -40,13 +40,13 @@
  - 在库 seata 中执行 seata_server.sql 创建表
  - 在库 seata-sample 中执行 seata_sample.sql 创建表
  
- - 修改 account business order storage 四个服务的 MySQL 链接
+ - 修改 business storage 服务的 MySQL 链接
  - 修改 seata/seata-server/conf/file.conf MySQL 链接
 
  ### 测试
  - 启动 eureka
  - 使用 seata/seata-server/bin 下脚本启动 seata_server
- - 启动 account business order storage 四个服务
+ - 启动 business storage 服务
  - 测试 AT http://localhost:9091/purchase/commit http://localhost:9091/purchase/rollback
  - 测试 TCC http://localhost:9091/tcc/commit http://localhost:9091/tcc/rollback
 
